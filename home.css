@@ -87,6 +87,12 @@
         .dropdown {
             position: relative;
         }
+        
+        /* just add */
+
+        .dropdown > a{
+            cursor: pointer;
+        }
 
         .dropdown-content {
             display: none;
@@ -121,6 +127,7 @@
 
 
         /* Mobile Menu Toggle */
+
         .menu-toggle {
             display: none;
             flex-direction: column;
@@ -132,7 +139,10 @@
             width: 25px;
             height: 3px;
             background: var(--text-dark);
-            transition: all 0.3s ease;
+        }
+
+        #menu-checkbox {
+            display: none;
         }
 
         /* Hero Section */
@@ -171,11 +181,6 @@
             /* background-color: red; */
         }
 
-        .fash{
-            /* background-color: red; */
-        }
-
-        
 
         .hero-content h1 {
             font-size: 3.5rem;
@@ -424,7 +429,10 @@
         }
 
         /* Mobile Responsive */
-        @media (max-width: 768px) {
+
+          @media (max-width: 768px) {
+
+
             .nav-links {
                 display: none;
                 position: absolute;
@@ -461,6 +469,10 @@
 
             .cta-buttons {
                 flex-direction: column;
+            }
+
+            .category-info h3{
+                line-height: 2.5rem;
             }
 
             .category-grid {
