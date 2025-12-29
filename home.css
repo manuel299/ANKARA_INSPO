@@ -453,6 +453,14 @@
                 display: flex;
             }
 
+             .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            background-color: #d4772c;
+            border-radius: 20px;
+             }
+
             .hero {
                 grid-template-columns: 1fr;
                 text-align: center;
@@ -461,10 +469,16 @@
 
             .hero-content h1 {
                 font-size: 2.5rem;
+                margin-top: 1rem
+            }
+
+            .hero-content{
+                padding: 2px;
             }
 
             .hero-image {
                 order: -1;
+                padding: 2px;
             }
 
             .cta-buttons {
