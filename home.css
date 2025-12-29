@@ -431,6 +431,9 @@
         /* Mobile Responsive */
 
           @media (max-width: 768px) {
+            #menu-checkbox:checked ~ .nav-links {
+                display: flex;
+            }
 
 
             .nav-links {
